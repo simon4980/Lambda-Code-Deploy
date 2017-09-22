@@ -13,7 +13,4 @@ Resources:
             Handler: index.handler
             Runtime: nodejs4.3
             CodeUri: ./
-            Environment:
-                Variables:
-                    SAM_MULTIPLIER: !Ref SamMultipler
-                    ORIGIN_URL: !Ref OriginUrl
+
